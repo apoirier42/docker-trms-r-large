@@ -3,7 +3,9 @@ FROM rocker/tidyverse:3.4.4
 ENV LC_ALL en_US.UTF-8
 ENV LANG en_US.UTF-8
 
-RUN R -e "install.packages(c( \
+RUN apt-get update && \
+    apt-get install -yq apt-utils libapparmor-dev libpoppler-cpp-dev && \
+    R -e "install.packages(c( \
           'foreach', \
           'doParallel', \
           'DT', \
@@ -14,5 +16,6 @@ RUN R -e "install.packages(c( \
           'TTR', \
           'geosphere', \
           'gdata', \
-          'binhf' \
+          'binhf', \
+          'readtext' \
           ))"
