@@ -10,6 +10,7 @@ RUN apt-get update && \
           'doParallel', \
           'DT', \
           'ISOweek', \
+          'openxlsx', \
           'plotly', \
           'R.utils', \
           'RODBC', \
