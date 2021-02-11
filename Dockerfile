@@ -19,5 +19,5 @@ RUN apt-get update && \
           'gdata', \
           'binhf', \
           'readtext', \
-          'shiny'
+          'shiny' \
           ))"
