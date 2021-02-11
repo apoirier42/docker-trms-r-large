@@ -1,4 +1,4 @@
-FROM rocker/tidyverse:3.4.4
+FROM rocker/tidyverse
 
 ENV LC_ALL en_US.UTF-8
 ENV LANG en_US.UTF-8
