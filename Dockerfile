@@ -18,5 +18,6 @@ RUN apt-get update && \
           'geosphere', \
           'gdata', \
           'binhf', \
+          'future', \
           'readtext' \
           ))"
