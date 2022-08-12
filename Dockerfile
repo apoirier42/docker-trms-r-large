@@ -19,6 +19,7 @@ RUN apt-get update && \
           'gdata', \
           'binhf', \
           'future', \
+          'Hmisc', \
           'readtext', \
           'shiny' \
           ))"
